@@ -1,0 +1,42 @@
+{
+    "authors": [
+        {
+            "name": "Vaibhav Pandey",
+            "email": "vaibhav@qrstuff.com"
+        },
+        {
+            "name": "Vaibhav Pandey",
+            "email": "contact@vaibhavpandey.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "QRStuff\\Scout\\MongoDB\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "description": "MongoDB (not MongoDB Atlas) engine for the Laravel Scout search.",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "QRStuff\\Scout\\MongoDB\\ScoutMongoDBServiceProvider"
+            ]
+        }
+    },
+    "license": "MIT",
+    "name": "qrstuff/scout-mongodb",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.4",
+        "ext-mongodb": "*",
+        "mongodb/laravel-mongodb": "^3.0 || ^4.0 || ^5.0"
+    },
+    "require-dev": {
+        "illuminate/database": ">=8.0",
+        "illuminate/support": ">=8.0",
+        "laravel/scout": ">=8.0"
+    },
+    "type": "library"
+}
