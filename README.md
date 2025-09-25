@@ -47,6 +47,7 @@ In your `config/scout.php`, add the mongodb definition:
 return [
 
     // other stuff
+
     'mongodb' => [
         'connection' => env('SCOUT_MONGODB_CONNECTION', 'mongodb'),
         'index-settings' => [
