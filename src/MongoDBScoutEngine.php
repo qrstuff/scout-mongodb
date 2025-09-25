@@ -206,10 +206,10 @@ class MongoDBScoutEngine extends Engine implements UpdatesIndexSettings
 
     public function updateIndexSettings(string $name, array $settings = []): void
     {
-        $searchable = $settings['searchable'] ?? [];
-        if ($searchable) {
+        $searchableAttributes = $settings['searchableAttributes'] ?? [];
+        if ($searchableAttributes) {
             $collection = $this->database->selectCollection($name);
-            $collection->createIndex(array_fill_keys($searchable, 'text'));
+            $collection->createIndex(array_fill_keys($searchableAttributes, 'text'));
         }
 
         $filterableAttributes = $settings['filterableAttributes'] ?? [];
