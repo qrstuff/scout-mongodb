@@ -93,6 +93,6 @@ See [LICENSE](LICENSE) file.
 [latest-version-url]: https://github.com/qrstuff/scout-mongodb/releases
 [downloads-image]: https://img.shields.io/packagist/dt/qrstuff/scout-mongodb.svg?style=flat-square
 [downloads-url]: https://packagist.org/packages/qrstuff/scout-mongodb
-[php-version-image]: http://img.shields.io/badge/php-7.2+-8892be.svg?style=flat-square
+[php-version-image]: http://img.shields.io/badge/php-7.4+-8892be.svg?style=flat-square
 [php-version-url]: https://www.php.net/downloads
 [license-image]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
