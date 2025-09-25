@@ -68,7 +68,6 @@ Then add the `Searchable` trait your model classes as follows:
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Laravel\Scout\Attributes\SearchUsingFullText;
 use Laravel\Scout\Searchable;
 
 class Customer extends Model
